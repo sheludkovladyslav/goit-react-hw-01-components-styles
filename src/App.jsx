@@ -5,12 +5,15 @@ import statistics from "./data/statistics.json";
 import { Statistics } from "./components/Statistics";
 import { FriendsList } from "./components/FriendsList";
 import friends from "./data/friends.json";
+import { Transactions } from "./components/Transactions";
+import transactions from "./data/transactions.json";
 function App() {
   return (
     <>
       <Profile user={user} />
       <Statistics statistics={statistics} />
       <FriendsList friends={friends} />
+      <Transactions items={transactions} />
     </>
   );
 }
