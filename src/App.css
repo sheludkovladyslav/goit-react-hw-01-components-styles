@@ -92,3 +92,33 @@ img {
 .label {
   color: rgb(171, 171, 171);
 }
+
+.statistics {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.stat-list {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.item {
+  background-color: rgb(82, 83, 83);
+  width: 100%;
+  border: 1px solid black;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.statistics-label {
+  font-size: 0.8em;
+}
