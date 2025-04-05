@@ -5,7 +5,7 @@ import statistics from "./data/statistics.json";
 import { Statistics } from "./components/Statistics";
 import { FriendsList } from "./components/FriendsList";
 import friends from "./data/friends.json";
-import { Transactions } from "./components/Transactions";
+import { Transactions } from "./components/Transactions/Transactions";
 import transactions from "./data/transactions.json";
 function App() {
   return (
