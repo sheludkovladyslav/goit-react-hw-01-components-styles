@@ -1,5 +1,5 @@
 import "./App.css";
-import { Profile } from "./components/Profile";
+import { Profile } from "./components/Profile/Profile";
 import user from "./data/user.json";
 import statistics from "./data/statistics.json";
 import { Statistics } from "./components/statistics/Statistics";
